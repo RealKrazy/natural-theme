@@ -1,5 +1,5 @@
 {
-	"name": "Cool Theme",
+	"name": "Natural Dark",
 	"colors": {
 		"titleBar.activeBackground": "#151617",
 		"foreground": "#eeffff",
@@ -13,22 +13,32 @@
 		"editor.background": "#121414",
 		"editor.foreground": "#eeffff",
 		"editor.selectionBackground": "#2f2f2f",
+		"editorWidget.background": "#1c1c1c",
+		"editorGroupHeader.tabsBackground": "#151617",
+		"tab.activeBackground": "#292929",
+		"tab.inactiveBackground": "#1a1a1a",
 
 		"sideBar.background": "#151617",
 		"sideBar.foreground": "#d9d9d9",
+		"sideBarSectionHeader.background": "#1a1b1c",
 
 		"statusBar.background": "#008060",
 		"statusBarItem.remoteBackground": "#005c49",
 
 		"activityBar.background": "#151617",
-		"activityBar.activeBackground": "#05b48e",
+		"activityBar.activeBackground": "#007a60",
+		"activityBarBadge.background": "#373737",
 
-		"button.background": "#05b48e",
-		"checkbox.background": "#05b48e",
+		"button.background": "#007a60",
+		"checkbox.background": "#007a60",
 
-		"list.activeSelectionBackground": "#474b4e",
-		"sideBarSectionHeader.background": "#1a1b1c",
+		"list.activeSelectionBackground": "#2d2d2d",
+		"list.inactiveSelectionBackground": "#2c2c2c",
 		"list.highlightForeground": "#00ffbf",
+
+		"commandCenter.background": "#232424",
+
+		"settings.settingsHeaderHoverForeground": "#ccd9d2"
 	},
 	"tokenColors": [
 		{
