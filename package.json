@@ -1,9 +1,14 @@
 {
     "name": "naturalthemes",
     "displayName": "Natural Themes",
-    "description": "Fun themes",
-    "version": "0.0.1",
-    "repository": {},
+    "description": "Eco-friendly themes",
+    "author": {
+        "name": "Krazy Dev"
+    },
+    "version": "0.0.2",
+    "repository": {
+        "url": "https://github.com/RealKrazy/natural-theme"
+    },
     "engines": {
         "vscode": "^1.89.0"
     },
@@ -15,7 +20,12 @@
             {
                 "label": "Natural Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Cool Theme-color-theme.json"
+                "path": "./themes/NaturalDark-Theme.json"
+            },
+            {
+                "label": "Natural Light (Placeholder)",
+                "uiTheme": "vs",
+                "path": "./themes/NaturalLight-Theme.json"
             }
         ]
     }
