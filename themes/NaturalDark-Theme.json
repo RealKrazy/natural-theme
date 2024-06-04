@@ -165,7 +165,7 @@
 			}
 		},
 		{
-			"name": "Namespaces/Module paths",
+			"name": "Namespaces/module paths",
 			"scope": [
 				"entity.name.namespace",
 				"entity.name.type.namespace"
@@ -218,7 +218,16 @@
 			}
 		},
 
-		// Markdown
+		// Markup
+		{
+			"name": "Markup paragraph",
+			"scope": [
+				"meta.paragraph"
+			],
+			"settings": {
+				"foreground": "#eeffff"
+			}
+		},
 		{
 			"name": "Markup headings",
 			"scope": [
@@ -230,11 +239,97 @@
 			}
 		},
 		{
-			"name": "Markup fenced code",
+			"name": "Markup bold",
 			"scope": [
-				
-			]
+				"markup.bold"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup list",
+			"scope": [
+				"markup.list"
+			],
+			"settings": {
+				"foreground": "#FF0000"
+			}
+		},
+		{
+			"name": "Markup quote",
+			"scope": [
+				"markup.quote",
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup code",
+			"scope": [
+				"markup.inline",
+				"markup.fenced_code",
+			],
+			"settings": {
+				"foreground": "#ff0000"
+			}
+		},
+		{
+			"name": "Markup link/image inline",
+			"scope": [
+				"meta.link.inline",
+				"meta.image.inline",
+			],
+			"settings": {
+				"foreground": "#FF0000",
+			}
+		},
+		{
+			"name": "Markup link title",
+			"scope": [
+				"string.other.link",
+			],
+			"settings": {
+				"foreground": "#f9d185",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Markup underline link",
+			"scope": [
+				"markup.underline.link"
+			],
+			"settings": {
+				"foreground": "#00ff00",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Markup separator",
+			"scope": [
+				"meta.separator"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
 		}
+
+		// TODO: XML, HTML
+		// TODO: JSON
 	],
 	"semanticHighlighting": true
 }

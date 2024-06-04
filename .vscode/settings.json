@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "themes/*.json"
+            ],
+            "url": "vscode://schemas/color-theme"
+        }
+    ]
+}

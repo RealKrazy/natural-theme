@@ -11,14 +11,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Start of CHANGELOG.md update and maintenance
 - "Natural Light" theme placeholder
-
-### Changed
-
-- README.md features list
+- Workspace "settings.json" file for JSON schema completion
 
 **Natural Dark**:
 
 - Partial Markdown highlighting support
+
+### Changed
+
+- README.md features list
 
 ## [0.0.1] - 2024-06-04
 
@@ -26,9 +27,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 - Visual Studio Code theme extension
+- "Natural Dark" theme
 
 **Natural Dark**:
 
-- "Natural Dark" theme
 - Window, widgets, editor full skinning
 - Programming language syntax (semantic) highlighting
