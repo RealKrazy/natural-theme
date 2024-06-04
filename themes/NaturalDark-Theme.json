@@ -41,16 +41,17 @@
 		"settings.settingsHeaderHoverForeground": "#ccd9d2"
 	},
 	"tokenColors": [
+		// Programming languages
 		{
 			"name": "Keywords",
 			"scope": [
 				"keyword",
 				"storage.type",
 				"storage.modifier",
-				"variable.language",
+				"variable.language"
 			],
 			"settings": {
-				"foreground": "#87ffb9",
+				"foreground": "#87ffb9"
 			}
 		},
 		{
@@ -58,26 +59,26 @@
 			"scope": [
 				"keyword.control",
 				"keyword.operator.new",
-				"keyword.operator.expression",
+				"keyword.operator.expression"
 			],
 			"settings": {
-				"foreground": "#a9e5b3",
+				"foreground": "#a9e5b3"
 			}
 		},
 		{
 			"name": "Variables",
 			"scope": [
 				"variable.other",
-				"variable.parameter",
+				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#9ffdde",
+				"foreground": "#9ffdde"
 			}
 		},
 		{
 			"name": "Variable constants",
 			"scope": [
-				"variable.other.constant",
+				"variable.other.constant"
 			],
 			"settings": {
 				"foreground": "#9ffdde",
@@ -87,16 +88,16 @@
 		{
 			"name": "Variable properties",
 			"scope": [
-				"variable.other.property",
+				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#c3ffc3",
+				"foreground": "#c3ffc3"
 			}
 		},
 		{
 			"name": "Language constants",
 			"scope": [
-				"constant.language",
+				"constant.language"
 			],
 			"settings": {
 				"foreground": "#42b7ff",
@@ -106,27 +107,27 @@
 		{
 			"name": "Functions",
 			"scope": [
-				"entity.name.function",
+				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#80e1ff",
+				"foreground": "#80e1ff"
 			}
 		},
 		{
 			"name": "Preprocessor functions",
 			"scope": [
 				"entity.name.function.preprocessor",
-				"meta.preprocessor",
+				"meta.preprocessor"
 			],
 			"settings": {
-				"foreground": "#bebebe",
+				"foreground": "#bebebe"
 			}
 		},
 		{
 			"name": "Class types",
 			"scope": [
 				"entity.name.type",
-				"entity.name.class",
+				"entity.name.class"
 			],
 			"settings": {
 				"foreground": "#45f6c1",
@@ -136,7 +137,7 @@
 		{
 			"name": "Struct types",
 			"scope": [
-				"entity.name.type.struct",
+				"entity.name.type.struct"
 			],
 			"settings": {
 				"foreground": "#aeff9c",
@@ -146,17 +147,17 @@
 		{
 			"name": "Interface types",
 			"scope": [
-				"entity.name.type.interface",
+				"entity.name.type.interface"
 			],
 			"settings": {
 				"foreground": "#35ffb2",
-				"fontStyle": "bold",
+				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "Enum types",
 			"scope": [
-				"entity.name.type.enum",
+				"entity.name.type.enum"
 			],
 			"settings": {
 				"foreground": "#35ffb2",
@@ -167,11 +168,11 @@
 			"name": "Namespaces/Module paths",
 			"scope": [
 				"entity.name.namespace",
-				"entity.name.type.namespace",
+				"entity.name.type.namespace"
 			],
 			"settings": {
 				"foreground": "#d3d3d3",
-				"fontStyle": "",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -179,7 +180,7 @@
 			"scope": [
 				"keyword.operator",
 				"storage.modifier.pointer",
-				"storage.modifier.reference",
+				"storage.modifier.reference"
 			],
 			"settings": {
 				"foreground": "#dfdfdf",
@@ -189,11 +190,11 @@
 		{
 			"name": "String literal",
 			"scope": [
-				"string.quoted",
+				"string"
 
 			],
 			"settings": {
-				"foreground": "#f9d185",
+				"foreground": "#f9d185"
 			}
 		},
 		{
@@ -203,7 +204,7 @@
 				"keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#ffe478",
+				"foreground": "#ffe478"
 			}
 		},
 		{
@@ -215,7 +216,25 @@
 				"foreground": "#e8fff677",
 				"fontStyle": ""
 			}
+		},
+
+		// Markdown
+		{
+			"name": "Markup headings",
+			"scope": [
+				"markup.heading"
+			],
+			"settings": {
+				"foreground": "#35ffb2",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup fenced code",
+			"scope": [
+				
+			]
 		}
 	],
-	"semanticHighlighting": true,
+	"semanticHighlighting": true
 }

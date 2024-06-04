@@ -1,6 +1,6 @@
 # Natural Themes
 
-Provides eco-friendly themes. Or not.
+Provides eco-friendly themes to Visual Studio Code.
 
 ## Features:
 
