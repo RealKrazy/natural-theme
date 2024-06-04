@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Start of CHANGELOG.md update and maintenance
 - "Natural Light" theme placeholder
 
+### Changed
+
+- README.md features list
+
 **Natural Dark**:
 
 - Partial Markdown highlighting support
