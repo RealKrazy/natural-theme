@@ -3,11 +3,12 @@
 	"colors": {
 		"titleBar.activeBackground": "#151617",
 		"foreground": "#eeffff",
-		"focusBorder": "#ff0000",
+		"focusBorder": "#05b48e",
 		"selection.background": "#686868",
+		"icon.foreground": "#6ff7af",
 
-		"textLink.foreground": "#ff0000",
-		"textLink.activeForeground": "#ff0000",
+		"textLink.foreground": "#05b48e",
+		"textLink.activeForeground": "#05b48e",
 		
 		"editor.background": "#121414",
 		"editor.foreground": "#eeffff",
@@ -17,11 +18,13 @@
 		"sideBar.foreground": "#d9d9d9",
 
 		"statusBar.background": "#008060",
+		"statusBarItem.remoteBackground": "#005c49",
 
 		"activityBar.background": "#151617",
 		"activityBar.activeBackground": "#05b48e",
 
-		"button.background": "#ff0000",
+		"button.background": "#05b48e",
+		"checkbox.background": "#05b48e",
 
 		"list.activeSelectionBackground": "#474b4e",
 		"sideBarSectionHeader.background": "#1a1b1c",
