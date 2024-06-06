@@ -9,6 +9,7 @@
     "repository": {
         "url": "https://github.com/RealKrazy/natural-theme"
     },
+    "license": "MIT",
     "engines": {
         "vscode": "^1.89.0"
     },

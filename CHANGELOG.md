@@ -15,10 +15,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Natural Dark**:
 
-- Markdown official highlighting
-- JSON official highlighting
-- HTML, XML official highlighting
-- String interpolation definition highlighting
+- Markdown highlighting support
+- JSON highlighting support
+- HTML, XML highlighting support
+- String interpolation definition highlighting support
+
+**Repository**:
+
+- README.md light theme features
+- Created FIXES.md for ideas and bugfix requests
+- Created ROADMAP.md for planned-out future features
 
 ### Changed
 
