@@ -23,6 +23,7 @@
 		"sideBarSectionHeader.background": "#1a1b1c",
 
 		"statusBar.background": "#008060",
+		"statusBar.debuggingBackground": "#003d27",
 		"statusBarItem.remoteBackground": "#005c49",
 
 		"activityBar.background": "#151617",
@@ -62,7 +63,8 @@
 				"keyword.operator.expression"
 			],
 			"settings": {
-				"foreground": "#a9e5b3"
+				"foreground": "#a9e5b3",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -72,7 +74,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#9ffdde"
+				"foreground": "#8effac"
 			}
 		},
 		{
@@ -81,7 +83,7 @@
 				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#9ffdde",
+				"foreground": "#8effac",
 				"fontStyle": "bold"
 			}
 		},
@@ -100,7 +102,7 @@
 				"constant.language"
 			],
 			"settings": {
-				"foreground": "#42b7ff",
+				"foreground": "#85fffd",
 				"fontStyle": "bold"
 			}
 		},
@@ -110,7 +112,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#80e1ff"
+				"foreground": "#42fff6"
 			}
 		},
 		{
@@ -191,10 +193,29 @@
 			"name": "String literal",
 			"scope": [
 				"string"
-
 			],
 			"settings": {
 				"foreground": "#f9d185"
+			}
+		},
+		{
+			"name": "String interpolation definition",
+			"scope": [
+				"punctuation.definition.interpolation",
+				"punctuation.definition.template-expression",
+			],
+			"settings": {
+				"foreground": "#dfeeee"
+			}
+		},
+		{
+			"name": "String interpolation",
+			"scope": [
+				"meta.interpolation"
+			],
+			"settings": {
+				"foreground": "#70ffc8",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -204,7 +225,7 @@
 				"keyword.other.unit"
 			],
 			"settings": {
-				"foreground": "#ffe478"
+				"foreground": "#ffea97"
 			}
 		},
 		{
@@ -234,7 +255,7 @@
 				"markup.heading"
 			],
 			"settings": {
-				"foreground": "#35ffb2",
+				"foreground": "#4ccc9b",
 				"fontStyle": "bold"
 			}
 		},
@@ -244,7 +265,7 @@
 				"markup.bold"
 			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#a2e9d9",
 				"fontStyle": "bold"
 			}
 		},
@@ -254,7 +275,7 @@
 				"markup.italic"
 			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#a2e9d9",
 				"fontStyle": "italic"
 			}
 		},
@@ -264,7 +285,7 @@
 				"markup.list"
 			],
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#c0c0c0"
 			}
 		},
 		{
@@ -273,7 +294,7 @@
 				"markup.quote",
 			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#ababab",
 				"fontStyle": "italic"
 			}
 		},
@@ -284,7 +305,7 @@
 				"markup.fenced_code",
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#b2b2b2"
 			}
 		},
 		{
@@ -294,7 +315,7 @@
 				"meta.image.inline",
 			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#d6d6d6",
 			}
 		},
 		{
@@ -304,7 +325,7 @@
 			],
 			"settings": {
 				"foreground": "#f9d185",
-				"fontStyle": "underline"
+				"fontStyle": "bold underline"
 			}
 		},
 		{
@@ -313,7 +334,7 @@
 				"markup.underline.link"
 			],
 			"settings": {
-				"foreground": "#00ff00",
+				"foreground": "#6fffd9",
 				"fontStyle": "underline"
 			}
 		},
@@ -323,13 +344,51 @@
 				"meta.separator"
 			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#b0b0b0",
 				"fontStyle": "bold"
 			}
-		}
+		},
 
-		// TODO: XML, HTML
-		// TODO: JSON
+		// XML, HTML
+		{
+			"name": "Entity tag",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#a2ffbe"
+			}
+		},
+		{
+			"name": "Entity attribute name",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#9efafd"
+			}
+		},
+		{
+			"name": "Entity tag punctuation",
+			"scope": [
+				"meta.tag",
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#d5d5d5"
+			}
+		},
+
+		// JSON
+		{
+			"name": "Support type",
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#acffcf"
+			}
+		}
 	],
 	"semanticHighlighting": true
 }

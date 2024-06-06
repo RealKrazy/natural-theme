@@ -14,10 +14,14 @@ Provides eco-friendly themes to Visual Studio Code.
 
 - [x] Editor themed
 - [x] Whole window themed
-- [ ] HTML, XML highlighting
-- [ ] JSON highlighting
-- [ ] Markdown highlighting
+- [x] HTML, XML highlighting
+- [x] JSON highlighting
+- [x] Markdown highlighting
 
 **Natural Light:**
 
-- [ ] TBA
+- [ ] Editor themed
+- [ ] Whole window themed
+- [ ] HTML, XML highlighting
+- [ ] JSON highlighting
+- [ ] Markdown highlighting
