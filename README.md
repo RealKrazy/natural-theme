@@ -7,21 +7,21 @@ Provides eco-friendly themes to Visual Studio Code.
 **Themes:**
 
 - [x] Natural Dark
-- [ ] Natural Light
+- [x] Natural Light
 - [ ] TBA
 
 **Natural Dark:**
 
-- [x] Editor themed
-- [x] Whole window themed
+- [x] Window, editor, widgets themed
+- [x] Programming languages highlighting
 - [x] HTML, XML highlighting
 - [x] JSON highlighting
 - [x] Markdown highlighting
 
 **Natural Light:**
 
-- [ ] Editor themed
-- [ ] Whole window themed
+- [x] Window, editor, widgets themed
+- [ ] Programming languages highlighting
 - [ ] HTML, XML highlighting
 - [ ] JSON highlighting
 - [ ] Markdown highlighting

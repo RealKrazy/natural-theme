@@ -1,3 +1,46 @@
 {
-    "name": "Natural Light"
+    "name": "Natural Light",
+    "colors": {
+		"titleBar.activeBackground": "#e2e2e2",
+		"foreground": "#0f0f0f",
+		"focusBorder": "#05b48e",
+		"selection.background": "#e5e5e5",
+		"icon.foreground": "#39815a",
+
+		"textLink.foreground": "#05b48e",
+		"textLink.activeForeground": "#05b48e",
+		
+		"editor.background": "#ffffff",
+		"editor.foreground": "#0f0f0f",
+		"editor.selectionBackground": "#82f0c0",
+		"editorWidget.background": "#fcfcfc",
+		"editorGroupHeader.tabsBackground": "#dbdbdb",
+		"tab.activeBackground": "#bebebe",
+		"tab.inactiveBackground": "#e5e5e5",
+
+		"sideBar.background": "#f0f0f0",
+		"sideBar.foreground": "#292929",
+		"sideBarSectionHeader.background": "#efefef",
+
+		"statusBar.background": "#008060",
+		"statusBar.debuggingBackground": "#003d27",
+		"statusBarItem.remoteBackground": "#005c49",
+
+		"activityBar.background": "#151617",
+		"activityBar.activeBackground": "#007a60",
+		"activityBarBadge.background": "#373737",
+
+		"button.background": "#007a60",
+		"checkbox.background": "#007a60",
+
+		"list.activeSelectionBackground": "#00ae83",
+		"list.inactiveSelectionBackground": "#baded7",
+		"list.highlightForeground": "#009d76",
+        "list.focusHighlightForeground": "#00f9bb",
+
+		"commandCenter.background": "#ebebeb",
+
+		"settings.settingsHeaderHoverForeground": "#616261"
+	},
+    "semanticHighlighting": true
 }

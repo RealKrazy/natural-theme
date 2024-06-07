@@ -5,7 +5,7 @@
     "author": {
         "name": "Krazy Dev"
     },
-    "version": "0.1.1",
+    "version": "0.2.0",
     "repository": {
         "url": "https://github.com/RealKrazy/natural-theme"
     },
@@ -24,7 +24,7 @@
                 "path": "./themes/NaturalDark-Theme.json"
             },
             {
-                "label": "Natural Light (Placeholder)",
+                "label": "Natural Light",
                 "uiTheme": "vs",
                 "path": "./themes/NaturalLight-Theme.json"
             }
