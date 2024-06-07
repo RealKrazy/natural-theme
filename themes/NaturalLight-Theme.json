@@ -34,7 +34,7 @@
 		"checkbox.background": "#007a60",
 
 		"list.activeSelectionBackground": "#00ae83",
-		"list.inactiveSelectionBackground": "#baded7",
+		"list.inactiveSelectionBackground": "#e4f0ed",
 		"list.highlightForeground": "#009d76",
         "list.focusHighlightForeground": "#00f9bb",
 
@@ -42,5 +42,214 @@
 
 		"settings.settingsHeaderHoverForeground": "#616261"
 	},
+    "tokenColors": [
+		// Programming languages
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"storage.modifier",
+				"variable.language"
+			],
+			"settings": {
+				"foreground": "#44815d"
+			}
+		},
+		{
+			"name": "Control keywords",
+			"scope": [
+				"keyword.control",
+				"keyword.operator.new",
+				"keyword.operator.expression"
+			],
+			"settings": {
+				"foreground": "#56765c",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.other",
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#11752c"
+			}
+		},
+		{
+			"name": "Variable constants",
+			"scope": [
+				"variable.other.constant"
+			],
+			"settings": {
+				"foreground": "#4f9b63",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Variable properties",
+			"scope": [
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#279927"
+			}
+		},
+		{
+			"name": "Language constants",
+			"scope": [
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#5cb7b6",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#178781"
+			}
+		},
+		{
+			"name": "Preprocessor functions",
+			"scope": [
+				"entity.name.function.preprocessor",
+				"meta.preprocessor"
+			],
+			"settings": {
+				"foreground": "#747474"
+			}
+		},
+		{
+			"name": "Class types",
+			"scope": [
+				"entity.name.type",
+				"entity.name.class"
+			],
+			"settings": {
+				"foreground": "#1e8465",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Struct types",
+			"scope": [
+				"entity.name.type.struct"
+			],
+			"settings": {
+				"foreground": "#567f4d",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Interface types",
+			"scope": [
+				"entity.name.type.interface"
+			],
+			"settings": {
+				"foreground": "#00a264",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Enum types",
+			"scope": [
+				"entity.name.type.enum"
+			],
+			"settings": {
+				"foreground": "#00a264",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Namespaces/module paths",
+			"scope": [
+				"entity.name.namespace",
+				"entity.name.type.namespace"
+			],
+			"settings": {
+				"foreground": "#d3d3d3",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Operator",
+			"scope": [
+				"keyword.operator",
+				"storage.modifier.pointer",
+				"storage.modifier.reference"
+			],
+			"settings": {
+				"foreground": "#636363",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "String literal",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#b78426"
+			}
+		},
+		{
+			"name": "String interpolation definition",
+			"scope": [
+				"punctuation.definition.interpolation",
+				"punctuation.definition.template-expression",
+			],
+			"settings": {
+				"foreground": "#575e5e"
+			}
+		},
+		{
+			"name": "String interpolation",
+			"scope": [
+				"meta.interpolation"
+			],
+			"settings": {
+				"foreground": "#70ffc8",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Numerals",
+			"scope": [
+				"constant.numeric",
+				"keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#d7b014"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#505a5677",
+				"fontStyle": ""
+			}
+		},
+
+        // JSON
+		{
+			"name": "Support type",
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#517861"
+			}
+		}
+    ],
     "semanticHighlighting": true
 }
