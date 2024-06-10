@@ -29,5 +29,6 @@
                 "path": "./themes/NaturalLight-Theme.json"
             }
         ]
-    }
+    },
+    "publisher": "ikrazydev"
 }

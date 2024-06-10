@@ -240,6 +240,146 @@
 			}
 		},
 
+		// Markup
+		{
+			"name": "Markup paragraph",
+			"scope": [
+				"meta.paragraph"
+			],
+			"settings": {
+				"foreground": "#313131"
+			}
+		},
+		{
+			"name": "Markup headings",
+			"scope": [
+				"markup.heading"
+			],
+			"settings": {
+				"foreground": "#0ca56a",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup bold",
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"foreground": "#00ae85",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"foreground": "#00ae85",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup list",
+			"scope": [
+				"markup.list"
+			],
+			"settings": {
+				"foreground": "#5c5c5c"
+			}
+		},
+		{
+			"name": "Markup quote",
+			"scope": [
+				"markup.quote",
+			],
+			"settings": {
+				"foreground": "#606060",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup code",
+			"scope": [
+				"markup.inline",
+				"markup.fenced_code",
+			],
+			"settings": {
+				"foreground": "#616161"
+			}
+		},
+		{
+			"name": "Markup link/image inline",
+			"scope": [
+				"meta.link.inline",
+				"meta.image.inline",
+			],
+			"settings": {
+				"foreground": "#6a6a6a",
+			}
+		},
+		{
+			"name": "Markup link title",
+			"scope": [
+				"string.other.link",
+			],
+			"settings": {
+				"foreground": "#d88d01",
+				"fontStyle": "bold underline"
+			}
+		},
+		{
+			"name": "Markup underline link",
+			"scope": [
+				"markup.underline.link"
+			],
+			"settings": {
+				"foreground": "#08a279",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Markup separator",
+			"scope": [
+				"meta.separator"
+			],
+			"settings": {
+				"foreground": "#5c5c5c",
+				"fontStyle": "bold"
+			}
+		},
+
+		// XML, HTML
+		{
+			"name": "Entity tag",
+			"scope": [
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#a2ffbe"
+			}
+		},
+		{
+			"name": "Entity attribute name",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#9efafd"
+			}
+		},
+		{
+			"name": "Entity tag punctuation",
+			"scope": [
+				"meta.tag",
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#d5d5d5"
+			}
+		},
+
         // JSON
 		{
 			"name": "Support type",
